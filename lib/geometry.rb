@@ -10,7 +10,7 @@ module Geometry
         @point_2 = point_2
         @length = @point_1.calculate_distance_to(@point_2)
       else
-        raise("Line should be initialized with 2 point objects")
+        raise("Line should be initialized with 2 Point objects")
       end
     end
   end

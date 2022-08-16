@@ -6,7 +6,7 @@ class Point
       @x = x
       @y = y
     else
-      raise("Invalid parameters for point initialization")
+      raise("Invalid parameters for Point initialization")
     end
   end
 
